@@ -7,8 +7,8 @@ def line(katz_deli)
   #it should say "The line is currently empty.".
 
   katz_deli.each.with_index(1) do |person, index|
-  puts "The line is currently #{index}. #{person}"  
-  end
+  puts "The line is currently #{index}. #{person}"
+  
 end
 
 def take_a_number(line, end_person)
