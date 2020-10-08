@@ -35,7 +35,8 @@ def take_a_number(katz_deli, name)
 
 end
 
-def now_serving
+def now_serving(katz_deli)
+  puts "Currently serving #{katz_deli.first}."
   # Build the now_serving method which should call out (i.e. puts)
   # the next person in line and then remove them from the front.
   # If there is nobody in line, it should call out (puts)
