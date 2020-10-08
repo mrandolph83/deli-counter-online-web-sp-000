@@ -5,10 +5,13 @@ katz_deli = []
 def line(katz_deli)
   # Shows everyone current place in line. If there is nobody in line,
   #it should say "The line is currently empty.".
+  if katz_deli != nil
 
-  katz_deli.each.with_index(1) do |person, index|
-  puts "The line is currently #{index}. #{person}"
+    katz_deli.each.with_index(1) do |person, index|
+    puts "The line is currently #{index}. #{person}"
 
+  else
+    puts "The line is currently empty."
   end
 end
 
