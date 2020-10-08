@@ -8,7 +8,8 @@ def line(katz_deli)
 
   katz_deli.each.with_index(1) do |person, index|
   puts "The line is currently #{index}. #{person}"
-  
+
+  end
 end
 
 def take_a_number(line, end_person)
@@ -30,3 +31,4 @@ def now_serving
   # the next person in line and then remove them from the front.
   # If there is nobody in line, it should call out (puts)
   # that "There is nobody waiting to be served!".
+  
