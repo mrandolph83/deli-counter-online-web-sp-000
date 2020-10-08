@@ -18,7 +18,12 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(line, end_person)
+def take_a_number(katz_deli, name)
+
+  name = gets.strip
+  puts "Welcome, #{name}. You are number #{katz_deli.size} in line."
+
+
 # Build a method that a new customer
 # will use when entering the deli.
 # The take_a_number method should accept
