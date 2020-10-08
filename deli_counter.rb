@@ -21,6 +21,7 @@ end
 def take_a_number(katz_deli, name)
 
   name = gets.strip
+  katz_deli << name
   puts "Welcome, #{name}. You are number #{katz_deli.size} in line."
 
 
