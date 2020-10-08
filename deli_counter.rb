@@ -46,5 +46,6 @@ def now_serving(katz_deli)
   # the next person in line and then remove them from the front.
   # If there is nobody in line, it should call out (puts)
   # that "There is nobody waiting to be served!".
+  katz_deli.shift
   end
 end
