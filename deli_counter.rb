@@ -5,14 +5,16 @@ katz_deli = []
 def line(katz_deli)
   # Shows everyone current place in line. If there is nobody in line,
   #it should say "The line is currently empty.".
+  line_placement = []
   if katz_deli.empty?
 
     puts "The line is currently empty."
 
   else
     katz_deli.each.with_index(1) do |person, index|
-    puts "The line is currently #{index}. #{person}"
+      line_placement << "#{index}. #{customer}"
     end
+       puts "The line is currently: #{line_placement.join(" ")}"
   end
 end
 
