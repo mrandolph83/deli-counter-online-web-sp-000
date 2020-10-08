@@ -12,7 +12,7 @@ def line(katz_deli)
 
   else
     katz_deli.each.with_index(1) do |person, index|
-      line_placement << "#{index}. #{customer}"
+      line_placement << "#{index}. #{person}"
     end
        puts "The line is currently: #{line_placement.join(" ")}"
   end
